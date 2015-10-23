@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset=UTF-8>
+<title>TEST</title>
+<style type="text/css">
+body,html{
+  padding: 0;
+  margin: 0;
+ 
+}
+#number{
+  margin: 0 auto;
+  display: block;
+  color:#d84c29;
+  font-size: 32px;
+  border: none;
+}
+</style>
+
+<script type="text/javascript" src='hidpi-canvas.min.js'></script>
+<script type="text/javascript" src='ruler.js'></script>
+<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport" />
+</head>
+<body>
+
+<canvas id='canvas'></canvas>
+<input type="text" id ='number'></div>
+
+<script>
+var opt = {id:'canvas', //canvas的id
+		   showId:'number', //显示数字容器的id
+		   h:50, //canvas高，（宽度默认为屏幕宽）
+		   p:80, //一个刻度的宽度
+		   ts:50, //总刻度数
+		   sf:500, //两个刻度间的数值
+		   cs:10000, //屏幕正中间的刻度数
+		   c4s:'#BCBCBC', //刻度颜色
+		   c4n:'#BCBCBC'} // 数字颜色
+  var ruler = new Ruler(opt)
+  ruler.init()
+</script>
+</body>
+</html>
