@@ -1,7 +1,7 @@
 # ruler.js
 ![image](https://github.com/chrisHchen/ruler.js/raw/master/show.gif)
 <br><br>
-a configable ruler for mobile app and H5 page<br><br>
+a configable ruler for mobile app and H5 page<br>
 <h2>usage:</h2>
 <pre>
   var opt = {id:'canvas', //canvas的id
