@@ -19,7 +19,7 @@ a configable ruler for mobile app and H5 page<br><br>
 add 'hidpi-canvas.min.js' first if you are developping on high device pixel rate 
 <br>
 <h2>Note:</h2>
-it only runs on h5 mobile app and H5 compatable page
+it only runs on mobile app and H5 compatable page
 
 
 
